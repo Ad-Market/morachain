@@ -108,6 +108,7 @@ const Staking = () => {
           <div className="row">
             <div className="col-lg-6">
               <img
+                style={{ maxWidth: 690 }}
                 className="section-vector"
                 src="./assets/imgs/text-section-1.png"
                 alt=""
@@ -174,6 +175,7 @@ const Staking = () => {
             </div>
             <div className="col-lg-6">
               <img
+                style={{ maxWidth: 690 }}
                 className="section-vector"
                 src="./assets/imgs/text-section-2.png"
                 alt=""
@@ -209,6 +211,7 @@ const Staking = () => {
           <div className="row">
             <div className="col-lg-6">
               <img
+                style={{ maxWidth: 690 }}
                 className="section-vector"
                 src="./assets/imgs/text-section-3.png"
                 alt=""

@@ -164,6 +164,7 @@ const Landing = () => {
 
                 <div className="col-lg-4">
                   <img
+                    style={{ maxWidth: 500 }}
                     className="side-vector"
                     src="./assets/imgs/morachain-vector-1.png"
                     alt="morachain-vector-1.png"
@@ -181,6 +182,7 @@ const Landing = () => {
             <div className="row">
               <div className="col-lg-6">
                 <img
+                  style={{ maxWidth: 662 }}
                   src="./assets/imgs/morachain-vector-2.png"
                   alt="morachain-vector-2"
                   className="side-vector"
@@ -263,6 +265,7 @@ const Landing = () => {
 
               <div className="col-lg-6">
                 <img
+                  style={{ maxWidth: 633 }}
                   className="side-vector"
                   src="./assets/imgs/morachain-vector-3.png"
                   alt="morachain-vector-3"
@@ -451,6 +454,7 @@ const Landing = () => {
             <div className="row">
               <div className="col-lg-5">
                 <img
+                  style={{ maxWidth: 720 }}
                   src="./assets/imgs/morachain-vector-4.png"
                   alt="morachain-vector-4.png"
                   className="side-vector"

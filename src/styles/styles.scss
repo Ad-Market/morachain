@@ -455,7 +455,7 @@ a {
             position: absolute;
             left: 50%;
             top: 50%;
-            transform: translate(calc(-50% + 4px), calc(-50% + 4px));
+            transform: translate(calc(-50% + 2px), calc(-50% + -3px));
           }
         }
 
@@ -623,9 +623,8 @@ a {
     .side-vector {
       position: absolute;
       bottom: -120px;
-      width: 36vw;
+      width: 28vw;
       right: -80px;
-      max-width: 500px;
 
       @media screen and (max-width: 991px) {
         position: static;
@@ -706,7 +705,7 @@ a {
         position: absolute;
         bottom: -100px;
         right: -80px;
-        width: 44vw;
+        width: 27vw;
 
         @media screen and (max-width: 991px) {
           position: static;
@@ -817,6 +816,7 @@ a {
         box-shadow: 0 0 10px rgba(#000, 0.3);
         text-align: center;
         padding: 2rem 1rem;
+        height: 100%;
 
         img.bg-card {
           position: absolute;
@@ -1442,7 +1442,11 @@ a {
 
     &.sec-2 {
       .section-vector {
-        width: 41vw;
+        width: 31vw;
+
+        @media screen and (max-width: 575px) {
+          width: 50vw;
+        }
 
         @media screen and (max-width: 991px) {
           position: static;

@@ -8,10 +8,12 @@ const MoraChainHero = () => {
           <div className="left">
             <h1 className="text-start">What is Morachain?</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Morachain is a real estate asset tokenization platform powered by
+              blockchain with a purpose to make a decentralized ecosystem where
+              investing in property is as simple as putting shares into the
+              stock market. This is accomplished by stamping real estate NFT and
+              fractionalizing it. Morachain has made a Metaverse planned as per
+              the present properties.
             </p>
           </div>
         </div>

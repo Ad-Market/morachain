@@ -25,7 +25,7 @@ const Login = () => {
                       icon="./assets/imgs/input-icon-account.png"
                       label="Email Address*"
                       id="email"
-                      placeholder="Enter Your Email Address"
+                      placeholder="Enter Your Email"
                     />
                     <Input
                       icon="./assets/imgs/input-icon-pwd.png"
@@ -34,15 +34,15 @@ const Login = () => {
                       placeholder="Enter Your Password"
                     />
 
-                    <button className="btn btn-gradient">Sign-In Now</button>
+                    <button className="btn btn-gradient">Submit</button>
 
                     <div className="options">
                       <p>
                         Forgot Password? <a href="#0">Click Here</a>
                       </p>
                       <p>
-                        Don't Have An Account?{" "}
-                        <Link to="/signup">Signup Now</Link>
+                        Create a new account?{" "}
+                        <Link to="/signup">Signup Now!</Link>
                       </p>
                     </div>
                   </form>

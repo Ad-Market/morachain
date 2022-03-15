@@ -140,36 +140,74 @@ const NFTs = () => {
 
       <div className="section benefits">
         <div className="page-container">
-          <h2>Membership Benefits</h2>
+          <h2>Benefits of Membership</h2>
 
           <div className="container-fluid px-0 mt-4 list-container">
             <div className="row">
               <div className="col-md-6">
                 <ul className="styled-list-2">
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
+                  <li>
+                    Get access to the best real estate deals that were only
+                    available to institutional investors.
+                  </li>
+                  <li>
+                    No lock-in period on investments and no entry barrier to
+                    exclusive deals offered on the tokenization platform.
+                  </li>
+                  <li>
+                    Get investment deals from affordable housing to luxury and
+                    ultra-luxury residential properties in fractions
+                  </li>
+                  <li>
+                    With the P2E opportunity accessible the users have unlimited
+                    possibilities in the mind of what can be created and
+                    adapted.
+                  </li>
+                  <li>
+                    Get admittance to the best real estate deals that were
+                    simply accessible to institutional investors. Invest in land
+                    in fractions and gain profits with capital appreciation.
+                  </li>
+                  <li>Invest in properties as low as USD XYZ.</li>
+                  <li>
+                    Access to global properties and other asset classes like
+                    commercial, retail, and hospitality.
+                  </li>
+                  <li>An opportunity to reap higher profits and dividends.</li>
                 </ul>
               </div>
               <div className="col-md-6">
                 <ul className="styled-list-2">
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
-                  <li>Lorem Ipsum is simply dummy text of the printing and</li>
+                  <li>
+                    Providing an ecosystem where investment in real estate is as
+                    easy as investing in shares on the stock market.
+                  </li>
+                  <li>
+                    Unique tokens - ownership of each property is distributed
+                    across a finite number of representative tokens.
+                  </li>
+                  <li>
+                    Assists asset or fund owners to raise capital more
+                    efficiently.
+                  </li>
+                  <li>
+                    It merits investors’ unprecedented access to private real
+                    estate investments, transparency, and liquidity.
+                  </li>
+                  <li>
+                    ‘Smart contracts’, the programmable actions on the
+                    blockchain facilitate the automation of various processes.
+                  </li>
+                  <li>
+                    As tokens can be swapped in real-time - it opens up new
+                    possibilities for ambitious and creative real estate
+                    ventures.
+                  </li>
+                  <li>It is one of the ways to securitize real assets.</li>
+                  <li>
+                    Get deals of investments from affordable housing to
+                    extravagance and ultra-private properties in fractions.
+                  </li>
                 </ul>
               </div>
             </div>

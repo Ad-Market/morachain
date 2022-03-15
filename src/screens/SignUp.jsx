@@ -44,7 +44,7 @@ const SignUp = () => {
                             icon="./assets/imgs/input-icon-email.png"
                             label="Email Address*"
                             id="email"
-                            placeholder="Enter Email Address"
+                            placeholder="Email Address"
                           />
                         </div>
                         <div className="col-lg-6">
@@ -58,7 +58,7 @@ const SignUp = () => {
                         <div className="col-lg-6">
                           <Input
                             icon="./assets/imgs/input-icon-location.png"
-                            label="Address 1*"
+                            label="Address line 1*"
                             id="email"
                             placeholder="Address"
                           />
@@ -66,7 +66,7 @@ const SignUp = () => {
                         <div className="col-lg-6">
                           <Input
                             icon="./assets/imgs/input-icon-location.png"
-                            label="Address 2*"
+                            label="Address line 2*"
                             id="password"
                             placeholder="Address"
                           />
@@ -76,7 +76,7 @@ const SignUp = () => {
                             icon="./assets/imgs/input-icon-pwd.png"
                             label="Password*"
                             id="email"
-                            placeholder="Enter Your Email Address"
+                            placeholder="Create Password*"
                           />
                         </div>
                         <div className="col-lg-6">
@@ -84,17 +84,17 @@ const SignUp = () => {
                             icon="./assets/imgs/input-icon-pwd.png"
                             label="Password*"
                             id="password"
-                            placeholder="Confirm Password"
+                            placeholder="Re-enter Password"
                           />
                         </div>
                       </div>
 
-                      <button className="btn btn-gradient">Sign-In Now</button>
+                      <button className="btn btn-gradient">Sign-up</button>
 
                       <div className="options">
                         <p className="text-center w-100">
-                          Already Have An Account?{" "}
-                          <Link to="/login">Signin Now</Link>
+                          Already Have An Existing Account?{" "}
+                          <Link to="/login">Signin Now!</Link>
                         </p>
                       </div>
                     </div>

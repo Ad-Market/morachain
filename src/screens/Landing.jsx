@@ -80,15 +80,15 @@ const Landing = () => {
         <div className="page-container">
           <h2>
             <span className="text-grad">Morachain</span> Token <br />
-            is now listed on
+            is now listed on:
           </h2>
 
-          <p className="mt-5 text-light-2">
+          {/* <p className="mt-5 text-light-2">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
-          </p>
+          </p> */}
 
           <div className="mt-4">
             <div className="listing-cards">
@@ -134,37 +134,26 @@ const Landing = () => {
                   </h2>
 
                   <p className="mt-3">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
+                    Morachain is the trailblazer in Fractionalizing the NFT of
+                    real estate assets. We have likewise changed this by making
+                    a computerized resource of this real-world property asset.
+                    We at Morachain have zeroed in on giving a consistent
+                    experience with transactions in a digital format by
+                    canceling out all middlemen through this platform.
                   </p>
 
                   <p className="mt-3">
-                    It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker
-                    including versions of Lorem Ipsum.
-                  </p>
-
-                  <p className="mt-3">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                    text.
+                    We let sellers tokenize resources, basically dealing with it
+                    like a stock sale, and liquidating that resource through a
+                    token deal utilizing the platform. The gathered tokens can
+                    be traded for fiat money, with purchasers possessing a
+                    percentage stake of the property.
                   </p>
                 </div>
 
                 <div className="col-lg-4">
                   <img
-                    style={{ maxWidth: 500 }}
+                    style={{ maxWidth: 410 }}
                     className="side-vector"
                     src="./assets/imgs/morachain-vector-1.png"
                     alt="morachain-vector-1.png"
@@ -195,31 +184,22 @@ const Landing = () => {
                   </h2>
 
                   <p className="mt-3 text-light-2">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
+                    Morachain has a platform that tokenizes property resources
+                    in the real worth of real estate metrics that is Sq. ft. A
+                    minimum share in the property is 1 sq. ft. that can be
+                    bought. With properties going from reasonable housing to
+                    ultra-luxury - the tokenization platform, Morachain, was
+                    launched in the year XYZ exclusively.
                   </p>
 
                   <p className="mt-3 text-light-2">
-                    It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker
-                    including versions of Lorem Ipsum.
-                  </p>
-
-                  <p className="mt-3 text-light-2">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                    text.
+                    After realizing that through blockchain technology, it is
+                    possible that more individuals can access the real estate
+                    market we introduced our platform. We observed that the
+                    exchanges and transactions can be made more straightforward,
+                    safe, and equitable. Real estate transactions may ultimately
+                    turn out to be really a peer-to-peer practice with
+                    blockchain-powered platforms doing the most of the work.
                   </p>
                 </div>
               </div>
@@ -236,36 +216,19 @@ const Landing = () => {
                 <h1>Metaverse</h1>
 
                 <p className="mt-3">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
-                </p>
-
-                <p className="mt-3">
-                  It was popularised in the 1960s with the release of Letraset
-                  sheets containing Lorem Ipsum passages, and more recently with
-                  desktop publishing software like Aldus PageMaker including
-                  versions of Lorem Ipsum.
-                </p>
-
-                <p className="mt-3">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
-                  Many desktop publishing packages and web page editors now use
-                  Lorem Ipsum as their default model text.
+                  Morachain is the virtual Metaverse of our platform. Purchasing
+                  a property in whole or in portions will make the client
+                  eligible to ensure and claim a similar region in the virtual
+                  land. The land on our platform must be claimed by buying a
+                  listed property at Morachain. It is an independent NFT that
+                  purchasers will guarantee with the gamified utility of the
+                  platform.
                 </p>
               </div>
 
               <div className="col-lg-6">
                 <img
-                  style={{ maxWidth: 633 }}
+                  style={{ maxWidth: 395 }}
                   className="side-vector"
                   src="./assets/imgs/morachain-vector-3.png"
                   alt="morachain-vector-3"
@@ -281,25 +244,13 @@ const Landing = () => {
             Play 2 Earn <span className="text-grad">(P2E)</span>
           </h2>
           <p className="text-light-2 mt-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-
-          <p className="text-light-2 mt-3">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text.
+            The virtual land on the Morachain platform once claimed gives the
+            client a choice to assemble, create and populate the land with
+            resources and commercial monetization. The platform is a free NFT
+            that can be sold on NFT markets or brought into the gaming metaverse
+            of any accomplice land exploration games. The game available at the
+            Morachain platform has its own resources that can be bought with the
+            tokens.
           </p>
         </div>
       </div>
@@ -352,10 +303,9 @@ const Landing = () => {
             </h2>
 
             <p className="mt-4 text-light-2">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Morachain offers a unique way for opening and unlocking NFT
+              liquidity and gives local community admittance to possessing
+              portions of notable and valuable Real Estate NFTs.
             </p>
           </div>
 
@@ -375,9 +325,10 @@ const Landing = () => {
                       <h3>ACCESSIBILITY</h3>
 
                       <p className="text-light-2">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry Lorem Ipsum has been the industry's
-                        standard.
+                        Get admittance to the best real estate deals that were
+                        simply accessible to institutional investors. Invest in
+                        land in fractions and gain profits with capital
+                        appreciation.
                       </p>
                     </div>
                   </div>
@@ -395,9 +346,8 @@ const Landing = () => {
                       <h3>FREEDOM</h3>
 
                       <p className="text-light-2">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry Lorem Ipsum has been the industry's
-                        standard.
+                        No lock-in period on investments and no barrier to
+                        selective deals delivered on the tokenization stage.
                       </p>
                     </div>
                   </div>
@@ -415,9 +365,10 @@ const Landing = () => {
                       <h3>DIVERSITY</h3>
 
                       <p className="text-light-2">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry Lorem Ipsum has been the industry's
-                        standard.
+                        Get deals of investments from affordable housing to
+                        extravagance and ultra-private properties in fractions.
+                        Admittance to worldwide properties and other resource
+                        classes like business, retail, and hospitality.
                       </p>
                     </div>
                   </div>
@@ -435,9 +386,9 @@ const Landing = () => {
                       <h3>CREATIVITY</h3>
 
                       <p className="text-light-2">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry Lorem Ipsum has been the industry's
-                        standard.
+                        With the P2E opportunity accessible the users have
+                        unlimited possibilities in the mind of what can be
+                        created and adapted.
                       </p>
                     </div>
                   </div>
@@ -465,31 +416,20 @@ const Landing = () => {
                   <h2>What is Fractional Ownership</h2>
 
                   <p className="mt-3">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
+                    Fractional ownership is a technique where a few random
+                    entities or parties can partake, mitigate the risk, or own a
+                    worthy tangible resource, like a yacht, jet, or piece of the
+                    resort property. It tends to be completed for strict
+                    monetary results, however, typically there is some measure
+                    of individual access included.
                   </p>
 
                   <p className="mt-3">
-                    It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker
-                    including versions of Lorem Ipsum.
-                  </p>
-
-                  <p className="mt-3">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                    text.
+                    In fractional ownership, you own a share of the actual land,
+                    and you are given a deed for the property, not a period that
+                    you can utilize the home. This keeps the costs lower than
+                    the entire possession, however, you actually approach the
+                    home in case if you are happy with the sharing model.
                   </p>
                 </div>
               </div>

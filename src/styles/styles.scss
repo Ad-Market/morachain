@@ -258,6 +258,27 @@ a {
         }
       }
     }
+
+    @media screen and (min-width: 768px) {
+      .dropdown.btn {
+        padding: 14px 22px;
+        border-radius: 4px;
+        font-weight: 700;
+        // color: $color6;
+        display: inline-block;
+        font-size: 14px;
+        text-align: center;
+        background: linear-gradient(to right, $color1, $color5, $color1);
+
+        .arrow {
+          right: 30px;
+        }
+
+        li {
+          font-size: 14px;
+        }
+      }
+    }
   }
 
   .hero {

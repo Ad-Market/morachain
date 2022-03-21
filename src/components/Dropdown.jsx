@@ -3,8 +3,8 @@ import clsx from "clsx";
 
 const Dropdown = ({ rootClassName, btn, children, dropdownItems }) => {
   return (
-    <div className={clsx("dropdown ps-0", { btn }, rootClassName)}>
-      {btn ? (
+    <div className={clsx("dropdown", { btn }, rootClassName)}>
+      {/* {btn ? (
         <img
           className="arrow m-0"
           src="./assets/vectors/select-arrow.svg"
@@ -16,7 +16,7 @@ const Dropdown = ({ rootClassName, btn, children, dropdownItems }) => {
           src="./assets/vectors/caret-down.svg"
           alt="arrow"
         />
-      )}
+      )} */}
       {children}
       <div className="dropdown-items">
         <ul className="dropdown-items-main">

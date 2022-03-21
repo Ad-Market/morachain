@@ -116,14 +116,25 @@ a {
     margin: 1.5rem 0 2rem;
   }
 
-  a {
+  a,
+  .dropdown.btn {
     display: block;
     padding: 0.5rem;
-    padding-left: 3rem;
+    padding-left: 3rem !important;
     font-size: 16px;
 
     &.active {
       color: $color2;
+    }
+  }
+
+  .arrow {
+    right: 3rem !important;
+  }
+
+  .dropdown-items {
+    li {
+      padding-left: 3rem !important;
     }
   }
 }

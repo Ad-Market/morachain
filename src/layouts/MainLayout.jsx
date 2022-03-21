@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import clsx from "clsx";
+import Dropdown from "../components/Dropdown";
 
 const MainLayout = ({
   title,
@@ -36,6 +37,9 @@ const MainLayout = ({
         <NavLink to="/nfts">NFTs</NavLink>
         <NavLink to="/login">login</NavLink>
         <NavLink to="/signup">Signup</NavLink>
+        <Dropdown btn dropdownItems={["Metamask", "Open Sea"]}>
+          Connect
+        </Dropdown>
       </div>
 
       <div className={clsx("main-layout", rootClassName)}>
@@ -54,6 +58,9 @@ const MainLayout = ({
               <div className="account hide-md">
                 <NavLink to="/login">login</NavLink>
                 <NavLink to="/signup">Signup</NavLink>
+                <Dropdown btn dropdownItems={["Metamask", "Open Sea"]}>
+                  Connect
+                </Dropdown>
               </div>
               <div className="menu show-md" onClick={toggleSideNav}>
                 <span></span>

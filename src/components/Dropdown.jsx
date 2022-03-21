@@ -1,0 +1,39 @@
+import React from "react";
+import clsx from "clsx";
+
+const Dropdown = ({ rootClassName, btn, children, dropdownItems }) => {
+  return (
+    <div className={clsx("dropdown ps-0", { btn }, rootClassName)}>
+      {btn ? (
+        <img
+          className="arrow m-0"
+          src="./assets/vectors/select-arrow.svg"
+          alt="arrow"
+        />
+      ) : (
+        <img
+          className="arrow m-0"
+          src="./assets/vectors/caret-down.svg"
+          alt="arrow"
+        />
+      )}
+      {children}
+      <div className="dropdown-items">
+        <ul className="dropdown-items-main">
+          {dropdownItems.map((el, idx) => {
+            return (
+              <li
+                className={clsx({ clickable: btn })}
+                key={"dropdown-item" + Math.random() + idx}
+              >
+                {el}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Dropdown;
